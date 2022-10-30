@@ -1,0 +1,33 @@
+useDynLib(viRandomForests)
+
+export(combine, getTree, grow, importancenew, margin, MDSplot, na.roughfix,
+       partialPlot, viRandomForests, rfImpute, treesize, tuneRF,
+       varImpPlot, varUsed, outlier, classCenter)
+
+S3method(print, viRandomForests)
+S3method(predict, viRandomForests)
+S3method(plot, viRandomForests)
+S3method(plot, margin)
+S3method(margin, viRandomForests)
+S3method(partialPlot, viRandomForests)
+S3method(grow, viRandomForests)
+S3method(importancenew, viRandomForests)
+S3method(outlier, viRandomForests)
+S3method(outlier, default)
+
+S3method(viRandomForests, formula)
+S3method(viRandomForests, default)
+S3method(rfImpute, formula)
+S3method(rfImpute, default)
+
+S3method(na.roughfix, data.frame)
+S3method(na.roughfix, default)
+
+importFrom("grDevices", "rainbow")
+importFrom("graphics", "axis", "barplot", "dotchart", "lines",
+           "matplot", "mtext", "pairs", "par", "plot", "plot.default",
+           "points")
+importFrom("stats", "delete.response", "mad", "median", "model.frame",
+           "model.response", "na.fail", "na.omit", "napredict",
+           "predict", "quantile", "reformulate", "terms", "update",
+           "var", "weighted.mean")

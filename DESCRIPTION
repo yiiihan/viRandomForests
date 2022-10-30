@@ -1,0 +1,13 @@
+Package: viRandomForests
+Title: Variable Importance-Weighted Random Forests
+Version: 1.0
+Date: 2017-03-16
+Depends: R (>= 2.5.0), stats
+Suggests: RColorBrewer, MASS
+Author: original R package randomForest by Andy Liaw and Matthew Wiener,
+        modified by Yiyi Liu for weighted random feature sampling
+Description: Perform variable importance-weighted Random Forests classification and regression analysis.
+Maintainer: Yiyi Liu <yiyi.liu@yale.edu>
+License: GPL (>= 2)
+NeedsCompilation: yes
+Packaged: 2017-03-17 18:12:03 UTC; liuyiyi

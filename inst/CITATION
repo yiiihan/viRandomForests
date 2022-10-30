@@ -1,0 +1,14 @@
+citHeader("To cite viRandomForests in publications use:")
+
+citEntry(entry="Article",
+         title = "Variable Importance-Weighted Random Forests",
+         author = personList(person(last="Liu", first="Yiyi"),
+	                     person(last="Zhao", first="Hongyu")),
+         year = "2017",
+         journal = "submitted",
+         
+         textVersion = 
+         paste("Y. Liu and H. Zhao ", 
+               "Variable Importance-Weighted Random Forests. ",
+               sep=""))
+ 
